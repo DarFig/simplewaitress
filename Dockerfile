@@ -6,7 +6,7 @@ LABEL maintainer="https://github.com/DarFig"
 RUN pip install waitress==2.0.0
 
 
-ENV APP='appname:create_app'
+ENV APP=appname
 
 COPY run.sh /run.sh
 RUN chmod +x run.sh
