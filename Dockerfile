@@ -3,7 +3,7 @@ FROM python:3.10.0a2-alpine3.12
 LABEL maintainer="https://github.com/DarFig"
 
 
-RUN pip install waitress
+RUN pip install waitress==2.0.0
 
 
 ENV APP='appname:create_app'
