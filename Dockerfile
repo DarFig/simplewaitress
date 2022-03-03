@@ -3,7 +3,7 @@ FROM python:3.10.0a2-alpine3.12
 LABEL maintainer="https://github.com/DarFig"
 
 RUN apt-get update && \
-    apt-get install -y python3-pip
+    apt-get install -y python-pip
 RUN pip install waitress
 
 
