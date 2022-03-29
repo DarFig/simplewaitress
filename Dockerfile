@@ -7,6 +7,7 @@ RUN pip install waitress==2.0.0
 
 
 ENV APP=appname
+ENV MODE="default"
 
 COPY run.sh /run.sh
 RUN chmod +x run.sh
