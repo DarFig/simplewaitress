@@ -1,9 +1,9 @@
-FROM python:3.11.1-alpine3.17
+FROM python:3.15.2-alpine3.24
 
 LABEL maintainer="https://github.com/DarFig"
 
 
-RUN pip install waitress==2.1.2
+RUN pip install waitress==3.0.0
 
 
 ENV APP=appname
