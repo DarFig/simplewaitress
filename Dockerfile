@@ -1,4 +1,4 @@
-FROM python:3.15.2-alpine3.24
+FROM python:3.12.16-alpine3.24
 
 LABEL maintainer="https://github.com/DarFig"
 
